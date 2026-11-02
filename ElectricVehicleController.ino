@@ -72,9 +72,9 @@ void loop() {
     float error = targetFraction - currentFraction;
 
     int motorPower = 0;
-    if (error > 0) {
-      motorPower = constrain((int)(error * 255), 255, 255);
-    }
+  if (error > 0) {
+    motorPower = constrain((int)(error * Kp), MIN_MOTOR_POWER, 255);
+  }
 
     analogWrite(motor1pin1, motorPower); // PWM speed control
     digitalWrite(motor1pin2, LOW);       // forward
