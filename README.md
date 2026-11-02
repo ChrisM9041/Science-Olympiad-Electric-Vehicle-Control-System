@@ -4,7 +4,7 @@ An autonomous electric vehicle designed and built for Science Olympiad. The vehi
 
 ## Vehicle
 
-![Completed electric vehicle](images/vehicle.jpg)
+![Completed electric vehicle](Vehicle.jpg)
 
 ## Project Overview
 
