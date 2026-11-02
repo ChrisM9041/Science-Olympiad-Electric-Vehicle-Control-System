@@ -2,6 +2,10 @@
 
 An autonomous electric vehicle designed and built for Science Olympiad. The vehicle uses an Arduino-based control system and Hall-effect encoder feedback to travel a calculated distance along a mechanically configured curved path.
 
+## Vehicle
+
+![Completed electric vehicle](images/vehicle.jpg)
+
 ## Project Overview
 
 The objective of this project was to design and build an electric vehicle capable of navigating a curved course and stopping at a designated endpoint.
